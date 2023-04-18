@@ -11,9 +11,9 @@ Converts an input digital text into a handwritten text image. (.txt -> .png)
 - Because we use `.txt` file, given text will be one line long. Therefore in the next step we need to skip lines: As the code checks the length of each word if it could fit the page `horizontally`, it adds `\n` in corresponding places. And then we have got our "lined" text.
 - After preprocessing: Given characters will be joined with an one-pixel wide image (for initial char).
 - When a row gets completed, current row image gets stored in a rows directory.
-- After all rows get completed, the next step is joining all the rows `vertically`. (-> `rows_0.png`)
-- If height of final rows png is bigger than allowed page size, multiple pages will be generated automatically.
-- The final "rows png" gets overlaid onto a blank seemless paper background. (`Page_X.png`)
+- After all rows get completed, the next step is joining all the rows `vertically`. ("rows png" -> `rows_0.png`)
+- If height of final `rows_0.png` img is bigger than allowed page size, multiple pages will be generated automatically.
+- The final `rows_0.png` gets overlaid onto a blank seemless paper background. (`Page_X.png`)
 - `build` directory gets emptied and final image `FinalText_XX.png` gets moved to `Characters` directory.
 - We're done!
 
