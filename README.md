@@ -32,6 +32,7 @@ Converts an input digital text into a handwritten text image. (.txt -> .png)
 
 ## Sample Text
 <img width="550" alt="sample" src="https://user-images.githubusercontent.com/95364352/232312263-eaf3999c-47a6-4177-be3c-773cdcffd3ab.png">
+As you can see the letter `s` and `o` are a bit janky. However, this is the text of my English essay assignment, for which I received points for this "handwritten" text.
 
 ###### Contact
 bsayitoglu@gmail.com
